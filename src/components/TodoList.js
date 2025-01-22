@@ -12,4 +12,4 @@ function TodoList(props) {
   );
 }
 
-export default TodoList;
+export default React.memo(TodoList);
